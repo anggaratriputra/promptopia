@@ -3,7 +3,7 @@ import Provider from "@components/Provider";
 import "@styles/globals.css";
 
 export const metadata = {
-  title: "Promptopia",
+  title: "Promptseeker",
   description: "Discover & Share AI Prompts",
 };
 
@@ -13,7 +13,7 @@ const RootLayout = ({ children }) => {
       <body>
         <Provider>
           <div className="main">
-            <div className="gradient" />
+            <div />
           </div>
           <main className="app">
             <Nav />
